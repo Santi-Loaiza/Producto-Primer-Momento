@@ -258,7 +258,7 @@ footer{
 .layout-contact div ul li{
     list-style: none;
 }
-.contact-form {
+form { 
     max-width: 400px;
     margin: 40px auto;
     padding: 20px;
@@ -267,7 +267,7 @@ footer{
   .contact-form h2{
     padding-bottom: 30px;
   }
-  .contact-form label {
+  form label {
     display: block;
     margin-bottom: 10px;
   }
@@ -303,4 +303,13 @@ footer{
 
   .div-ciudad{
     padding: 20px 0 20px 0;
+  }
+
+  .consultar-estadisticas{
+    padding: 50px;
+    text-align: center;
+  }
+
+  hr{
+    margin: 20px;
   }
