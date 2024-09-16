@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizar Servicio - TSB</title>
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="../MULTIMEDIA/IMAGES/ICONS/Logos/TSB-logotipo-sin-background.png">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="home-nav">
+            <ul class="home-nav_ul">
+                <li><a href="../index.html"><img src="../MULTIMEDIA/IMAGES/ICONS/Icon-regresar.svg" alt=""></a></li>
+                <li><a href="../index.html#Nosotros">Nosotros</a></li>
+                <li><a href="../index.html#servicios">Servicios</a></li>
+                <li><a href="../index.html#testimonios">Testimonios</a></li>
+                <li class="li-contact"><a href="../HTML/contactanos.html">Contactanos!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="consultar-estadisticas">
+            <h1>Calcular estadisticas</h1>
+            <form action="" method="post">
+                <label for="opciones">Seleccione una opción:</label>
+                <select id="opciones" name="opciones">
+                    <option value="opcion1">Estrategia de Marketing</option>
+                    <option value="opcion2">Marketing Digital</option>
+                    <option value="opcion3">Branding y Desarrollo de Marca</option>
+                    <option value="opcion4">Gestión de Redes Sociales</option>
+                    <option value="opcion5">Análisis y Métricas de Rendimiento</option>
+                </select>
+                <label for="presupuesto">Presupuesto financiero:</label>
+                <input type="number" id="presupuesto" name="presupuesto" min="0" required>
+                <hr>
+                <button type="submit">Mostrar estadísticas</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
