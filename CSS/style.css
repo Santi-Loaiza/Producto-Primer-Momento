@@ -234,14 +234,6 @@ footer{
     height: 100px;
 }
 
-.layout-contact{
-    display: grid;
-    grid-template-columns:  minmax(300px, 400px);
-    gap: 15px;
-    padding: 1rem;
-    grid-auto-flow: row;
-}
-
 .other-contacts{
     background-color: var(--third-color);
     width: 100%;
@@ -250,14 +242,20 @@ footer{
     border-radius: 10px;
 }
 
-.grid-contacts{
+.layout-contact{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     padding: 1rem;
-}
+}  
 
-.grid-contacts div ul li{
+@media (max-width: 768px) {
+    .layout-contact {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+.layout-contact div ul li{
     list-style: none;
 }
 .contact-form {
@@ -301,4 +299,8 @@ footer{
   
   .contact-form input[type="submit"]:hover {
     background-color: var(--third-color);
+  }
+
+  .div-ciudad{
+    padding: 20px 0 20px 0;
   }
